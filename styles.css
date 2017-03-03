@@ -1,0 +1,60 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px){  
+	.pokemon-img img { float:none; display:table; margin: 0 auto; }
+	.pokemon-details 
+	{ 
+		text-align:center;
+		width:100%;
+		margin-top:0px!important;
+	}
+	a.btn-pagination { font-size:12px; }
+}
+
+header
+{
+	top:0;
+	/*background-image:url("./images/hero-background.jpg");*/
+	height:220px;
+	width:100%;	
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+p#title
+{ 
+	color:white; 
+	font-size:16px; 
+	font-weight:bold; 
+	margin: -200px 0 0 15px!important; 
+}
+
+.btn-pagination
+{
+	background-color: #ffffff;
+    color: #000000;
+	font-size: 17px;
+    border: 1px solid #e0e0e0;
+	padding:8px;
+	cursor:pointer;
+}
+
+.container-fluid img
+{
+	width:96px;
+	height:96px;
+}
+
+.pokemon-container { padding-bottom:20px; }
+.wrap-container { border:1px solid #e0e0e0;} 
+.left { float:left; }
+.hide { display:none; }
+.paddingright0 { padding-right:0px!important; }
+.paddingleft0 { padding-left:0px!important; }
+.spacer-md { margin-top:32px; }
+.height-md { height:38px; }
+.pokemon-img img { width:96px; height:96px; }
+.pokemon-details { margin-top:20px; }
+.pokemon-details p { font-weight:bold;}
